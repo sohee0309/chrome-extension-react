@@ -1,0 +1,12 @@
+//developer.chrome.com에서 manifest 설정을 위한 코드가 자세히 나와있음.
+//크롬 확장 프로그램 사용자 인터페이스로 popup.html을 추가한다.
+
+{
+    "name": "Getting Started Example",
+    "description": "Build an Extension!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html"
+      }
+  } 
